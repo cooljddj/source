@@ -236,7 +236,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.8.18",
+        version: "3.1.2",
         status: false,
         name: "ParaCosmicBot",
         loggedInID: null,
