@@ -2861,6 +2861,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         //sendToSocket();
+                        API.sendChat("/me Be Right Back!");
                         storeToStorage();
                         basicBot.disconnectAPI();
                         setTimeout(function () {
